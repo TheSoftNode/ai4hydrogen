@@ -21,7 +21,7 @@ const SplashScreen = () => {
 
   return (
     <>
-    <div className="relative flex items-center justify-center overflow-hidden">
+    <div className="relative  flex items-center justify-center overflow-hidden">
       {/* Sophisticated Background */}
       <div className="absolute inset-0 z-0">
         {/* Primary Gradient */}
@@ -48,7 +48,7 @@ const SplashScreen = () => {
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-center min-h-screen">
+        <div className="flex flex-col items-center justify-center min-h-screen -py-5">
           {/* Logo Icon */}
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -67,7 +67,7 @@ const SplashScreen = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-center"
           >
-            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-6xl mb-6">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl mb-6">
               <span className="text-teal-700">AI4</span>
               <span className="text-cyan-600">HyQ</span>
             </h1>
