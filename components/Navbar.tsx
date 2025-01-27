@@ -3,20 +3,22 @@
 import React from 'react';
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+import
+  {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+  } from "@/components/ui/dropdown-menu";
 import { motion } from 'framer-motion';
 import { User } from 'lucide-react';
 
-const Navbar = () => {
+const Navbar = () =>
+{
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -29,7 +31,7 @@ const Navbar = () => {
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-teal-500 to-cyan-500 flex items-center justify-center">
               <span className="text-white font-bold text-sm">AI4</span>
             </div>
-            <span className="text-gray-900 font-semibold">Hydrogen</span>
+            <span className="text-gray-900 font-semibold">HyQ</span>
           </Link>
 
           {/* Auth Buttons */}

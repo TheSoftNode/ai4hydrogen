@@ -69,7 +69,7 @@ const SplashScreen = () => {
           >
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6">
               <span className="text-teal-700">AI4</span>
-              <span className="text-cyan-600">Hydrogen</span>
+              <span className="text-cyan-600">HyQ</span>
             </h1>
             
             <motion.div
@@ -79,7 +79,7 @@ const SplashScreen = () => {
               className="w-full mx-auto flex flex-col items-center justify-center"
             >
               <p className="text-xl sm:text-2xl text-gray-600 font-light mb-12">
-                Advanced machine learning platform for hydrogen blend analysis and prediction
+              A fully automated AI-enabled platform for real-time gas quality analytics, providing accurate, efficient, and actionable insights for industrial and environmental applications
               </p>
 
               {/* Decorative Line */}
