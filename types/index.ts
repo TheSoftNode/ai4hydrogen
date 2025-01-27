@@ -8,9 +8,9 @@ export interface FormData {
 }
   
   export interface PredictionResult {
-    'H₂ Blend (%)': number;
-    'CH₄ Content (%)': number;
-    'Calorific Value (MJ/m³)': number;
+    'H2 Blend (%)': number;
+    'CH4 Content (%)': number;
+    'Calorific Value (MJ/m3)': number;
   }
   
   export interface ChartData {

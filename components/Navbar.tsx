@@ -4,14 +4,14 @@ import React from 'react';
 import Link from 'next/link';
 import { Button } from "@/components/ui/button";
 import
-  {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-  } from "@/components/ui/dropdown-menu";
+{
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import { motion } from 'framer-motion';
 import { User } from 'lucide-react';
 
@@ -31,7 +31,7 @@ const Navbar = () =>
             <div className="w-8 h-8 rounded-full bg-gradient-to-br from-teal-500 to-cyan-500 flex items-center justify-center">
               <span className="text-white font-bold text-sm">AI4</span>
             </div>
-            <span className="text-gray-900 font-semibold">HyQ</span>
+            <span className="text-cyan-600 font-semibold">HyQ</span>
           </Link>
 
           {/* Auth Buttons */}
