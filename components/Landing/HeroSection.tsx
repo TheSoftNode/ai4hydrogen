@@ -350,7 +350,7 @@ const HeroSection: React.FC = () => {
                 <div className="absolute inset-0 z-10 bg-gradient-to-b from-gray-900/70 via-gray-900/60 to-gray-900/80" />
 
                 {/* Animated Grid Overlay */}
-                <motion.div
+                {/* <motion.div
                     className="absolute inset-0 z-20 h-full w-full"
                     style={{
                         backgroundImage: 'linear-gradient(rgba(14, 165, 233, 0.07) 1px, transparent 1px), linear-gradient(to right, rgba(14, 165, 233, 0.07) 1px, transparent 1px)',
@@ -358,7 +358,7 @@ const HeroSection: React.FC = () => {
                         y: y1, // Parallax effect on scroll
                         opacity,
                     }}
-                />
+                /> */}
 
                 {/* Animated Moving Particles */}
                 <div className="absolute inset-0 z-30">

@@ -28,20 +28,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ThemeProvider
-        attribute="class"
-        defaultTheme="system"
-        enableSystem
-        disableTransitionOnChange
+
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
         >
-          <Navbar />
-          {children}
-          <Footer />
-        </body>
-      </ThemeProvider>
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="overflow-none">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </ThemeProvider>
+      </body>
+
 
     </html>
   );

@@ -19,14 +19,14 @@ const SplashScreen = () => {
 
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       <HeroSection />
       <FeaturesSection />
       <BenefitsSection />
       <SustainabilitySection />
       <TechnologySection />
       <CtaSection />
-    </>
+    </div>
 
   );
 }
