@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const HeroSection: React.FC = () => {
     return (
-        <section className="relative min-h-screen w-full overflow-hidden">
+        <section className="relative min-h-screen pt-8 md:pt-0 w-full overflow-hidden">
             {/* Background Image with improved visibility */}
             <div className="absolute inset-0 z-0">
                 <Image

@@ -169,7 +169,7 @@ Calorific Value: ${results['Calorific Value (MJ/m3)']} MJ/m³
                 </div>
 
                 {/* Actions footer */}
-                <div className="flex justify-between mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
+                <div className="flex gap-3 justify-between mt-4 pt-4 border-t border-gray-100 dark:border-gray-800">
                     <Button
                         variant="outline"
                         size="sm"
@@ -179,7 +179,7 @@ Calorific Value: ${results['Calorific Value (MJ/m3)']} MJ/m³
                         <Trash2 className="h-4 w-4 mr-2" />
                         Clear Results
                     </Button>
-                    <div className="flex gap-2">
+                    <div className="flex flex-wrap gap-2">
                         <Tooltip>
                             <TooltipTrigger asChild>
                                 <Button

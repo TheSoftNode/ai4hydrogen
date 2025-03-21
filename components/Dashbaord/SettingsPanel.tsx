@@ -298,7 +298,7 @@ export const SettingsPanel: React.FC = () => {
           </TooltipProvider>
         </Tabs>
       </CardContent>
-      <CardFooter className="flex justify-between px-6 py-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-100 dark:border-gray-700">
+      <CardFooter className="flex justify-between flex-wrap gap-4 px-6 py-4 bg-gray-50 dark:bg-gray-800/50 border-t border-gray-100 dark:border-gray-700">
         <Button
           variant="outline"
           onClick={handleResetDefaults}
