@@ -217,7 +217,7 @@ const BenefitsSection: React.FC = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
-                                Key Benefits of <span className="text-teal-700 dark:text-teal-400">AI4</span><span className="text-cyan-600 dark:text-cyan-400">HyQ</span>
+                                Key Benefits of <span className="text-teal-700 dark:text-teal-400">H</span><span className="text-cyan-600 dark:text-cyan-400">yQ</span>
                             </h2>
                             <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
                                 Our AI-powered platform delivers exceptional value through these transformative capabilities:

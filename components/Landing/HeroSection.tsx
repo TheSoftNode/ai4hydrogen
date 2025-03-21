@@ -41,8 +41,8 @@ const HeroSection: React.FC = () => {
                 <div className="mb-12 text-center">
                     <h1 className="mb-6 text-5xl font-bold tracking-tight text-white md:text-6xl lg:text-7xl">
                         <span className="block mb-2">
-                            <span className="text-teal-400">AI4</span>
-                            <span className="text-cyan-400">HyQ</span>
+                            <span className="text-teal-400">H</span>
+                            <span className="text-cyan-400">yQ</span>
                         </span>
                         <span className="block text-3xl font-light md:text-4xl">
                             Revolutionizing Gas Quality Monitoring with AI

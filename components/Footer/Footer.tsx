@@ -61,8 +61,8 @@ const Footer = () => {
                                 <Atom className="h-6 w-6 text-white" />
                             </div>
                             <span className="text-xl font-bold">
-                                <span className="text-teal-700 dark:text-teal-400">AI4</span>
-                                <span className="text-cyan-600 dark:text-cyan-400">HyQ</span>
+                                <span className="text-teal-700 dark:text-teal-400">H</span>
+                                <span className="text-cyan-600 dark:text-cyan-400">yQ</span>
                             </span>
                         </Link>
 
@@ -205,7 +205,7 @@ const Footer = () => {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                            © {year} AI4HyQ. An AI-enabled product powered by HitoAI Limited. All rights reserved.
+                            © {year} HyQ. An AI-enabled product powered by HitoAI Limited. All rights reserved.
                         </p>
                         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
                             <Link href="/privacy" className="hover:text-teal-700 dark:hover:text-teal-400">Privacy</Link>

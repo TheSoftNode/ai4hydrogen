@@ -109,7 +109,7 @@ const FeaturesSection: React.FC = () => {
                         transition={{ duration: 0.6 }}
                     >
                         <h2 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
-                            What Makes <span className="text-teal-700 dark:text-teal-400">AI4</span><span className="text-cyan-600 dark:text-cyan-400">HyQ</span> Different?
+                            What Makes <span className="text-teal-700 dark:text-teal-400">H</span><span className="text-cyan-600 dark:text-cyan-400">yQ</span> Different?
                         </h2>
                         <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-gray-300">
                             Unlike traditional monitoring systems, our AI-powered platform delivers real-time insights and predictive analytics for gas composition and quality.

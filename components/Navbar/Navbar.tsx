@@ -108,8 +108,8 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
                                 <Atom className="h-6 w-6 text-white" />
                             </motion.div>
                             <span className="text-xl font-bold">
-                                <span className="text-teal-500 dark:text-teal-400">AI4</span>
-                                <span className="text-cyan-500 dark:text-cyan-400">HyQ</span>
+                                <span className="text-teal-500 dark:text-teal-400">H</span>
+                                <span className="text-cyan-500 dark:text-cyan-400">yQ</span>
                             </span>
                         </Link>
 

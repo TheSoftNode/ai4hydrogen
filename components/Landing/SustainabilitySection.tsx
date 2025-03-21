@@ -72,7 +72,7 @@ const SustainabilitySection = () => {
                         Accelerating the Transition to <span className="text-teal-700 dark:text-teal-400">Sustainable Energy</span>
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-gray-300">
-                        AI4HyQ is more than just a monitoring tool; it's a catalyst for decarbonization and energy transition.
+                        HyQ is more than just a monitoring tool; it's a catalyst for decarbonization and energy transition.
                     </p>
                     <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-teal-500 to-cyan-500"></div>
                 </motion.div>
@@ -149,7 +149,7 @@ const SustainabilitySection = () => {
                                             </div>
                                             <div className="flex items-center gap-2">
                                                 <div className="h-3 w-3 rounded-full bg-teal-500"></div>
-                                                <span className="text-xs text-gray-500 dark:text-gray-400">With AI4HyQ</span>
+                                                <span className="text-xs text-gray-500 dark:text-gray-400">With HyQ</span>
                                                 <div className="h-3 w-3 rounded-full bg-gray-300 dark:bg-gray-600"></div>
                                                 <span className="text-xs text-gray-500 dark:text-gray-400">Traditional</span>
                                             </div>

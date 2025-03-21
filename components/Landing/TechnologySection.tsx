@@ -101,7 +101,7 @@ const TechnologySection: React.FC = () => {
                         Innovative Technology for a <span className="text-teal-700 dark:text-teal-400">Smarter Future</span>
                     </h2>
                     <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-600 dark:text-gray-300">
-                        Designed with energy providers, industrial users, and regulators in mind, AI4HyQ provides a seamless, scalable, and future-ready solution.
+                        Designed with energy providers, industrial users, and regulators in mind, HyQ provides a seamless, scalable, and future-ready solution.
                     </p>
                     <div className="mx-auto mt-4 h-1 w-24 rounded-full bg-gradient-to-r from-teal-500 to-cyan-500"></div>
                 </motion.div>
@@ -185,7 +185,7 @@ const TechnologySection: React.FC = () => {
                                 </div>
 
                                 <h3 className="mb-3 text-center text-2xl font-bold text-gray-900 dark:text-white">
-                                    AI4HyQ Core Technology
+                                    HyQ Core Technology
                                 </h3>
                                 <p className="mb-8 text-center text-lg text-gray-600 dark:text-gray-300">
                                     Our proprietary AI algorithms transform gas quality monitoring with unparalleled precision and intelligence.

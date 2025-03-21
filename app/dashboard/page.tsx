@@ -76,8 +76,8 @@ export default function Dashboard() {
                     <div className="space-y-8">
                         <div className="bg-white dark:bg-gray-800 shadow-sm rounded-xl p-6 border border-gray-100 dark:border-gray-700">
                             <h1 className="text-3xl font-bold text-gray-900 dark:text-white flex items-center">
-                                <span className="text-teal-700 dark:text-teal-500">AI4</span>
-                                <span className="text-cyan-600 dark:text-cyan-400">HyQ</span>
+                                <span className="text-teal-700 dark:text-teal-500">H</span>
+                                <span className="text-cyan-600 dark:text-cyan-400">yQ</span>
                                 <span className="ml-2 px-2 py-1 text-xs font-medium bg-teal-100 text-teal-800 dark:bg-teal-900 dark:text-teal-300 rounded-md">ML-Powered</span>
                             </h1>
                             <p className="mt-2 text-gray-600 dark:text-gray-300">Predict hydrogen blend properties using machine learning</p>

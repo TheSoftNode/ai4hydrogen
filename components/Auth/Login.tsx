@@ -93,7 +93,7 @@ const Login: React.FC = () => {
                                 Sign in to your account
                             </h2>
                             <p className="mt-2 text-center text-sm text-gray-600 dark:text-gray-400">
-                                New to AI4HyQ?{' '}
+                                New to HyQ?{' '}
                                 <Link href="/auth/register" className="font-medium text-teal-600 hover:text-teal-500 dark:text-teal-400 dark:hover:text-teal-300">
                                     Create an account
                                 </Link>
