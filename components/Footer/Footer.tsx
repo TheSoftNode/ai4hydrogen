@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Atom, Facebook, Twitter, Linkedin, Mail, PhoneCall, MapPin } from 'lucide-react';
+import { Atom, Facebook, Mail, PhoneCall, MapPin } from 'lucide-react';
 import Link from 'next/link';
+import { FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -74,53 +75,51 @@ const Footer = () => {
                                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30">
                                     <PhoneCall className="h-4 w-4 text-teal-700 dark:text-teal-400" />
                                 </div>
-                                <span className="text-gray-700 dark:text-gray-300">+353 (01) 123 4567</span>
+                                <span className="text-gray-700 dark:text-gray-300">+353 89 983 2147</span>
                             </div>
                             <div className="flex items-center gap-3">
                                 <div className="flex h-8 w-8 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30">
                                     <Mail className="h-4 w-4 text-teal-700 dark:text-teal-400" />
                                 </div>
-                                <span className="text-gray-700 dark:text-gray-300">info@ai4hyq.com</span>
+                                <a href="mailto:info@hitoai.ai" className="hover:text-white transition-colors">
+                                    info@hitoai.ai
+                                </a>
                             </div>
                             <div className="flex items-start gap-3">
                                 <div className="mt-1 flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30">
                                     <MapPin className="h-4 w-4 text-teal-700 dark:text-teal-400" />
                                 </div>
                                 <span className="text-gray-700 dark:text-gray-300">
-                                    123 Innovation Drive<br />
-                                    Dublin, D02 HD86<br />
-                                    Ireland
+                                    HITOAI Limited<br />
+                                    Sandyford, Dublin 18<br />
+                                    Dublin, Ireland
                                 </span>
                             </div>
                         </div>
 
                         <div className="flex gap-4">
+
                             <motion.a
-                                href="https://twitter.com"
+                                href="https://www.linkedin.com/company/hitoai-limited/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ y: -3 }}
                                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md transition-colors hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700"
                             >
-                                <Twitter className="h-5 w-5 text-gray-700 dark:text-gray-300" />
+                                <FaLinkedin className="h-5 w-5 text-gray-700 dark:text-gray-300" />
                             </motion.a>
                             <motion.a
-                                href="https://linkedin.com"
+                                href="https://www.f6s.com/company-profile"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ y: -3 }}
                                 className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md transition-colors hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700"
                             >
-                                <Linkedin className="h-5 w-5 text-gray-700 dark:text-gray-300" />
-                            </motion.a>
-                            <motion.a
-                                href="https://facebook.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                whileHover={{ y: -3 }}
-                                className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md transition-colors hover:bg-gray-100 dark:bg-gray-800 dark:hover:bg-gray-700"
-                            >
-                                <Facebook className="h-5 w-5 text-gray-700 dark:text-gray-300" />
+                                <img
+                                    src={"/socials/f6s-logo.png"}
+                                    alt="F6S"
+                                    className="h-6 w-6"
+                                />
                             </motion.a>
                         </div>
                     </div>
@@ -206,7 +205,7 @@ const Footer = () => {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col items-center justify-between gap-4 text-center md:flex-row md:text-left">
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                            © {year} AI4HyQ. All rights reserved.
+                            © {year} AI4HyQ. An AI-enabled product powered by HitoAI Limited. All rights reserved.
                         </p>
                         <div className="flex flex-wrap items-center justify-center gap-x-8 gap-y-2 text-sm text-gray-600 dark:text-gray-400">
                             <Link href="/privacy" className="hover:text-teal-700 dark:hover:text-teal-400">Privacy</Link>

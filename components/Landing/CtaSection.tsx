@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { ArrowRight, Check, Zap, Clock, Euro, BarChart4 } from 'lucide-react';
+import { ArrowRight, Check, Zap, Clock, BarChart4, Shield } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import Link from 'next/link';
 
@@ -11,15 +11,15 @@ const CtaSection = () => {
     const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
     const benefits = [
-        "Fully developed and deployed within one year",
-        "Complete software and hardware components",
-        "Turnkey solution for modern energy industry",
-        "Ongoing support and regular updates",
-        "Training and implementation assistance"
+        "Real-time gas quality screening",
+        "Predictive analytics for gas fluctuations",
+        "Enhanced energy efficiency with AI optimization",
+        "Seamless integration with existing infrastructure",
+        "Support for regulatory compliance standards"
     ];
 
     return (
-        <section id="investment" className="relative py-24">
+        <section id="features" className="relative py-24">
             {/* Background with animated gradient */}
             <div className="absolute inset-0 z-0 overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-br from-teal-50 to-cyan-50 dark:from-gray-900 dark:to-cyan-950"></div>
@@ -57,7 +57,7 @@ const CtaSection = () => {
 
             <div ref={sectionRef} className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="grid gap-8 lg:grid-cols-2 lg:gap-16">
-                    {/* Left Column - Investment Details */}
+                    {/* Left Column - Product Features */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -30 }}
@@ -65,21 +65,21 @@ const CtaSection = () => {
                         className="flex flex-col justify-center"
                     >
                         <h2 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
-                            Investment & <span className="text-teal-700 dark:text-teal-400">Implementation</span>
+                            Revolutionizing <span className="text-teal-700 dark:text-teal-400">Gas Quality Monitoring</span> with AI
                         </h2>
                         <p className="mt-4 text-xl text-gray-600 dark:text-gray-300">
-                            The AI4HyQ platform will transform your gas quality monitoring with precision and intelligence.
+                            Real-Time Monitoring | Predictive Analytics | Sustainable Energy
                         </p>
 
                         <div className="mt-8">
                             <div className="mb-6 rounded-xl bg-white p-6 shadow-lg dark:bg-gray-800">
                                 <div className="flex flex-col items-center gap-4 sm:flex-row">
                                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-teal-100 dark:bg-teal-900/30">
-                                        <Euro className="h-10 w-10 text-teal-700 dark:text-teal-400" />
+                                        <Shield className="h-10 w-10 text-teal-700 dark:text-teal-400" />
                                     </div>
                                     <div className="text-center sm:text-left">
-                                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white">€187,000</h3>
-                                        <p className="text-gray-600 dark:text-gray-300">Total investment required</p>
+                                        <h3 className="text-2xl font-bold text-gray-900 dark:text-white">AI-Powered Platform</h3>
+                                        <p className="text-gray-600 dark:text-gray-300">Accurate, efficient, and sustainable</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,8 +91,8 @@ const CtaSection = () => {
                                             <Clock className="h-6 w-6 text-cyan-700 dark:text-cyan-400" />
                                         </div>
                                         <div className="text-center">
-                                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">1 Year</h3>
-                                            <p className="text-sm text-gray-600 dark:text-gray-300">Development Time</p>
+                                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Real-Time</h3>
+                                            <p className="text-sm text-gray-600 dark:text-gray-300">Continuous Monitoring</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,15 +103,15 @@ const CtaSection = () => {
                                             <BarChart4 className="h-6 w-6 text-blue-700 dark:text-blue-400" />
                                         </div>
                                         <div className="text-center">
-                                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">100%</h3>
-                                            <p className="text-sm text-gray-600 dark:text-gray-300">Turnkey Solution</p>
+                                            <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Predictive</h3>
+                                            <p className="text-sm text-gray-600 dark:text-gray-300">Advanced Analytics</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <h4 className="mb-4 text-lg font-semibold text-gray-900 dark:text-white">
-                                Complete Package Includes:
+                                Key Benefits of HyQ:
                             </h4>
 
                             <ul className="mb-8 space-y-3">
@@ -153,7 +153,7 @@ const CtaSection = () => {
                                 </div>
 
                                 <h3 className="mb-3 text-center text-2xl font-bold text-gray-900 dark:text-white">
-                                    Transform the Future of Energy
+                                    Empowering the Future of Energy
                                 </h3>
 
                                 <p className="mb-8 text-center text-gray-600 dark:text-gray-300">

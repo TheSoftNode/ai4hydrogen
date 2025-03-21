@@ -5,7 +5,7 @@ type Props = {}
 
 const page = (props: Props) => {
     return (
-        <div>
+        <div className='pt-12'>
             <Register />
         </div>
     )

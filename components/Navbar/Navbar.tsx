@@ -80,11 +80,11 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
     }, []);
 
     const navLinks = [
-        { href: '#features', label: 'Features' },
-        { href: '#benefits', label: 'Benefits' },
-        { href: '#technology', label: 'Technology' },
-        { href: '#investment', label: 'Investment' },
-        { href: '#contact', label: 'Contact' },
+        { href: '/#features', label: 'Features' },
+        { href: '/#benefits', label: 'Benefits' },
+        { href: '/#technology', label: 'Technology' },
+        // { href: '/#investment', label: 'Investment' },
+        { href: '/contact', label: 'Contact' },
     ];
 
     return (
@@ -128,7 +128,7 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
                                 variant="ghost"
                                 size="icon"
                                 onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-                                className="mr-2 rounded-full text-gray-800 bg-gray-100/80 hover:bg-gray-200 hover:text-teal-600 dark:bg-gray-800/80 dark:text-gray-100 dark:hover:bg-gray-700 dark:hover:text-teal-400"
+                                className="mr-4 rounded-full text-gray-800 bg-gray-100/80 hover:bg-gray-200 hover:text-teal-600 dark:bg-gray-800/80 dark:text-gray-100 dark:hover:bg-gray-700 dark:hover:text-teal-400"
                             >
                                 {theme === 'dark' ? (
                                     <Sun className="h-5 w-5" />
@@ -177,7 +177,7 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
                                     </DropdownMenuContent>
                                 </DropdownMenu>
                             ) : (
-                                <div className="flex items-center space-x-2">
+                                <div className="flex items-center space-x-4">
                                     <Link href="/auth/login">
                                         <Button variant="ghost" className="flex items-center gap-2 rounded-full bg-white/80 hover:bg-white dark:bg-gray-800/80 dark:hover:bg-gray-800 text-gray-900 dark:text-gray-100">
                                             <LogIn className="h-4 w-4" />
